@@ -305,11 +305,21 @@ h1.big-title {
 /* END SERVICE SECTION */
 /* PORTFOLIO SECTION */
 #portfolio {
-  background-color: #221c5a;
-  background-image: url("demo-images/background_img_02.jpg");
+  background: #4776e6; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #4776e6,
+    #8e54e9
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background-image: linear-gradient(
+      to right,
+      rgba(71, 118, 230, 0.8),
+      rgba(142, 84, 233, 0.8)
+    ),
+    url("demo-images/bg1.jpg");
   background-repeat: no-repeat;
   background-position: center top;
-  background-size: auto;
+  background-size: cover;
   z-index: 8;
 }
 #portfolio .section-title-holder {
@@ -321,7 +331,6 @@ h1.big-title {
 .page-template-page-portfolio .section {
   padding-top: 100px;
 }
-
 .section-content-holder.portfolio-holder {
   background-color: transparent;
   width: 800px;
@@ -447,7 +456,6 @@ div.pp_default .pp_loaderIcon {
 /* ABOUT SECTION */
 #about {
   background-color: rgb(34, 28, 90);
-  background-image: url("demo-images/background_img_03.jpg");
   background-repeat: no-repeat;
   background-position: center top;
   background-size: cover;
@@ -462,7 +470,6 @@ div.pp_default .pp_loaderIcon {
 #about .section-content-holder {
   padding-bottom: 0;
 }
-
 .member-content-holder {
   width: 330px;
   padding: 90px 50px 50px 50px;
@@ -496,7 +503,6 @@ div.pp_default .pp_loaderIcon {
 }
 /* END ABOUT SECTION */
 /* NEWS SECTION */
-
 #news {
   background-color: rgb(34, 28, 90);
   background-image: url("demo-images/background_img_04.jpg");
@@ -595,7 +601,6 @@ div.pp_default .pp_loaderIcon {
 #video .section-content-holder {
   padding-bottom: 0;
 }
-
 a.video-popup-holder {
   position: relative;
   display: block;
@@ -691,11 +696,9 @@ a.video-popup-holder:hover img.popup-play {
 #contact .section-content-holder {
   padding-bottom: 0;
 }
-
 .map {
   height: 400px;
 }
-
 .map img {
   max-width: none;
   max-height: none;
@@ -871,7 +874,6 @@ footer {
 }
 .single-portfolio article .entry-content {
   background-color: #fff;
-
   padding-bottom: 50px;
   font-size: 18px;
   line-height: 30px;
@@ -955,7 +957,6 @@ footer {
   .section-content-holder {
     width: 710px;
   }
-
   .extra-content-left,
   .extra-content-right {
     width: 710px;
@@ -969,7 +970,6 @@ footer {
   .section-content-holder.portfolio-holder {
     width: 710px;
   }
-
   .grid-item.p_one,
   .grid {
     width: 710px;
@@ -999,7 +999,6 @@ footer {
   .blog-item-holder .entry-title {
     width: 240px;
   }
-
   .single-portfolio .entry-content .one {
     padding-left: 5%;
     padding-right: 5%;
@@ -1065,7 +1064,6 @@ footer {
   .section-content-holder.left {
     margin-top: 0;
   }
-
   .section-num {
     display: inline-block;
     margin-top: 10px;
