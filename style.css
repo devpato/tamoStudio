@@ -1264,3 +1264,9 @@ footer {
 .lnr {
   font-size: 40px;
 }
+.hide-portfolio {
+  display: none;
+}
+.importantWords {
+  color: #e64b77;
+}
