@@ -187,7 +187,7 @@ body a:hover {
   font-size: 180px;
   line-height: 100%;
   text-transform: uppercase;
-  margin-top: -75px;
+  margin-top: -35px;
   color: #221c5a;
 }
 
@@ -341,7 +341,7 @@ h1.big-title {
   font-weight: 700;
   font-size: 20px;
   width: 430px;
-  background-color: #e74c78;
+  background-color: rgb(255, 186, 66);
   text-align: center;
 }
 .portfolio-holder .portfolio-load-more-holder img {
@@ -688,10 +688,10 @@ a.video-popup-holder:hover img.popup-play {
   z-index: 3;
 }
 #contact .section-title-holder {
-  background-color: rgb(230, 75, 119);
+  background-color: #4776e6;
 }
 #contact .section-title-holder span {
-  color: #b24564;
+  color: #4776e6;
 }
 #contact .section-content-holder {
   padding-bottom: 0;
@@ -722,7 +722,7 @@ p.custom-field-class {
 .contact-form input[type="text"],
 .contact-form input[type="email"],
 .contact-form textarea {
-  color: #23214c;
+  color: #4776e6;
   border: 0;
   border-bottom: 1px solid #1c1c1c;
   height: 28px;
@@ -746,7 +746,7 @@ p.custom-field-class {
 .contact-form input[type="email"]::-moz-placeholder,
 .contact-form textarea::-moz-placeholder {
   font-family: "Roboto", sans-serif;
-  color: #23214c;
+  color: #4776e6;
   font-weight: 400;
   font-size: 16px;
   line-height: 25px;
@@ -756,7 +756,7 @@ p.custom-field-class {
 .contact-form input[type="email"]:-ms-input-placeholder,
 .contact-form textarea:-ms-input-placeholder {
   font-family: "Roboto", sans-serif;
-  color: #23214c;
+  color: #4776e6;
   font-weight: 400;
   font-size: 16px;
   line-height: 25px;
@@ -765,7 +765,7 @@ p.custom-field-class {
 .contact-form input[type="email"]:-moz-placeholder,
 .contact-form textarea:-moz-placeholder {
   font-family: "Roboto", sans-serif;
-  color: #23214c;
+  color: #4776e6;
   font-weight: 400;
   font-size: 16px;
   line-height: 25px;
@@ -795,9 +795,9 @@ p.custom-field-class {
   padding-top: 0;
 }
 .contact-form input[type="submit"] {
-  color: #e54b76;
+  color: #4776e6;
   display: inline-block;
-  border: 2px solid #e54b76;
+  border: 2px solid #4776e6;
   text-align: center;
   padding: 12px 0px;
   cursor: pointer;
@@ -813,7 +813,7 @@ p.custom-field-class {
 }
 .contact-form input[type="submit"]:hover {
   color: white;
-  background-color: #e54b76;
+  background-color: #4776e6;
 }
 div.contact-form-response-output {
   margin: 0;
