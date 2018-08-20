@@ -1242,6 +1242,9 @@ footer {
     right: auto;
     left: 30px;
   }
+  .entry-title {
+    font-size: 48px !important;
+  }
 }
 @media screen and (max-width: 350px) {
   .section-num {
@@ -1257,6 +1260,9 @@ footer {
   }
   .image-slider-wrapper.service a.image_slider_next {
     top: -84px;
+  }
+  .entry-title {
+    font-size: 48px !important;
   }
 }
 .lnr {
