@@ -1270,3 +1270,7 @@ footer {
 .importantWords {
   color: #e64b77;
 }
+.sebas,
+.portfolio-load-more-holder {
+  margin-top: -4px;
+}

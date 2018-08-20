@@ -432,14 +432,3 @@ var SendMail = function() {
     alert("Your email is not in valid format");
   }
 };
-
-$(".portfolio-load-more-holder").click(function() {
-  $(".more-portfolio").show();
-  $(this).hide();
-});
-
-$(".hide-portfolio").click(function() {
-  $(".more-portfolio").hide();
-  $(".portfolio-load-more-holder").show();
-  $(this).hide();
-});
