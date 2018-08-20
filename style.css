@@ -40,13 +40,6 @@ body a:hover {
   width: 1170px;
 }
 
-.content-1170 img {
-  max-width: 100%;
-  max-height: 100%;
-  width: auto;
-  height: auto;
-}
-
 .full-width {
   line-height: 0;
 }
@@ -586,13 +579,19 @@ div.pp_default .pp_loaderIcon {
 /* VIDEO SECTION */
 #video {
   background-color: rgb(34, 28, 90);
-  background-image: url("demo-images/background_img_06.jpg");
+  background-image: linear-gradient(
+      to bottom,
+      rgba(71, 118, 230, 0.8),
+      rgba(142, 84, 233, 0.8)
+    ),
+    url("demo-images/bg3.jpg");
   background-repeat: repeat-x;
   background-position: center center;
   background-size: auto;
   z-index: 5;
 }
-#video .section-title-holder {
+#video .section-title-holder,
+.videoSec {
   background-color: rgb(255, 186, 66);
 }
 #video .section-title-holder span {
@@ -681,7 +680,6 @@ a.video-popup-holder:hover img.popup-play {
 /* CONTACT SECTION */
 #contact {
   background-color: rgb(34, 28, 90);
-  background-image: url("demo-images/background_img_05b.jpg");
   background-repeat: no-repeat;
   background-position: center top;
   background-size: auto;
@@ -1273,4 +1271,23 @@ footer {
 .sebas,
 .portfolio-load-more-holder {
   margin-top: -4px;
+}
+.tech-img {
+  height: "200px";
+  width: "200px";
+}
+.videoTitle {
+  font-size: 180px !important;
+  word-break: normal !important;
+}
+li.fw-slide img {
+  max-width: 120px;
+}
+.fw_carousel_pagination a {
+  border: 2px solid #fff;
+  height: 15px;
+  width: 15px;
+}
+#java {
+  height: 140px;
 }
