@@ -1277,7 +1277,7 @@ footer {
   width: "200px";
 }
 .videoTitle {
-  font-size: 180px !important;
+  font-size: 96px !important;
   word-break: normal !important;
 }
 li.fw-slide img {
@@ -1290,4 +1290,9 @@ li.fw-slide img {
 }
 #java {
   height: 140px;
+}
+.section-title-holder h2 {
+  width: 350px;
+  margin-left: 20px;
+  font-size: 96px;
 }
