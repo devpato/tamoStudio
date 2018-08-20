@@ -1228,6 +1228,9 @@ footer {
   #commentform #comment {
     width: 100% !important;
   }
+  .entry-title {
+    font-size: 48px !important;
+  }
 }
 @media screen and (max-width: 650px) {
   .member-content-holder {
