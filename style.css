@@ -316,10 +316,10 @@ h1.big-title {
   z-index: 8;
 }
 #portfolio .section-title-holder {
-  background-color: rgb(255, 186, 66);
+  background-color: #222;
 }
 #portfolio .section-title-holder span {
-  color: #e3a436;
+  color: rgb(75, 73, 73);
 }
 .page-template-page-portfolio .section {
   padding-top: 100px;
@@ -334,7 +334,7 @@ h1.big-title {
   font-weight: 700;
   font-size: 20px;
   width: 430px;
-  background-color: rgb(255, 186, 66);
+  background-color: #222;
   text-align: center;
 }
 .portfolio-holder .portfolio-load-more-holder img {
