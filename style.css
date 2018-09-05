@@ -585,9 +585,9 @@ div.pp_default .pp_loaderIcon {
       rgba(142, 84, 233, 0.8)
     ),
     url("demo-images/bg3.jpg");
-  background-repeat: repeat-x;
+  background-repeat: none;
   background-position: center center;
-  background-size: auto;
+  background-size: cover;
   z-index: 5;
 }
 #video .section-title-holder,
